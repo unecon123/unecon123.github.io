@@ -116,66 +116,6 @@ li a:hover {
   transition: 500ms;
 }
 
-/* nav {
-  display: flex;
-}
-
-@media screen and (max-width: 1100px) {
-  nav {
-    display: inline;
-  }
-
-  .nav-part {
-    height: 80px;
-    text-align: center;
-    width: 100%;
-    background-color: #66CDAA;
-    color: white;
-    font-size: 20px;
-    border: 5px solid white;
-    border-radius: 10px;
-    transition: 1000ms;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  nav {
-    display: inline;
-  }
-
-  .nav-part {
-    height: 100px;
-    text-align: center;
-    width: 100%;
-    background-color: #66CDAA;
-    color: white;
-    font-size: 18px;
-    border: 5px solid white;
-    border-radius: 10px;
-    transition: 1000ms;
-  } */
-/*
-  .nav-part {
-    height: 60px;
-    text-align: center;
-    flex-grow: 1;
-    background-color: #66CDAA;
-    color: white;
-    font-size: 20px;
-    border: 5px solid white;
-    border-radius: 10px;
-    transition: 1000ms;
-  }
-
-  .nav-part a {
-    color: white;
-  }
-
-  .nav-part a:hover {
-    color: grey;
-    transition: 500ms;
-  } */
-
   main {
     width: 100%;
     min-width: 500px;
@@ -223,7 +163,6 @@ li a:hover {
 }
 
 .ads__part__main p {
-  /* color: black; */
   color: white;
   text-transform: uppercase;
   font-weight: bold;
@@ -250,8 +189,6 @@ li a:hover {
   text-align: center;
 }
 
-
-
 .table {
   text-align: center;
   margin: 0 auto;
@@ -265,7 +202,6 @@ table {
 }
 
 .main-stroke td {
-  /* background-color: #ffb3ff; */
   background-color: #66CDAA;
   color: white;
   font-size: 20px;
@@ -284,7 +220,6 @@ table {
 
 tr {
 }
-
 
 td {
   border: 1px solid black;
@@ -343,7 +278,6 @@ td {
   background-color: lightgrey;
 }
 
-/* здесь начинается поиск по таблице */
 .results tr[visible='false'],
 .no-result {
   display: none;
@@ -377,8 +311,6 @@ td {
   margin: 1em auto;
 }
 
-/* здесь начинается поиск по таблице */
-
 .red {
   color: red;
 }
@@ -390,8 +322,6 @@ td {
 .underline {
   text-decoration: underline;
 }
-
-/* здесь стиль кнопки */
 
 .button-case {
   text-align: center;
