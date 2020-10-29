@@ -26,10 +26,32 @@
     </ul>
     <div class="general">
     <div class="wrapper">
-      <a href="documents/Архивы/График пересдачи КТ за прошлые семестры.rar"><p class="bold">График сдачи кт осень</p></a>
-      <a href="documents/Архивы/График пересдачи КТ осень.rar"><p class="bold">График пересдачи кт осень</p></a>
-      <a href="documents/Архивы/График пересдачи экзаменов за прошлые семестры.rar"><p class="bold">График пересдачи кт за предыдущие семестры</p></a>
-      <a href="documents/Архивы/График сдачи КТ осень.rar"><p class="bold">График пересдачи экзаменов за предыдущие семестры</p></a>
+      <div class="button-case upper-padding"><button class="button button1 long-button">График сдачи кт осень</button></div>
+      <div class="block" id="block1">
+        <p><a href="documents/График сдачи кт осень/график кт осень 2020.pdf">график кт осень 2020</a></p>
+        <p><a href="documents/График сдачи кт осень/Линейная алгебра 1 курс.pdf">Линейная алгебра 1 курс</a></p>
+        <p><a href="documents/График сдачи кт осень/Математика 1 курс.pdf">Математика 1 курс</a></p>
+        <p><a href="documents/График сдачи кт осень/Математический анализ 1 курс.pdf">Математический анализ 1 курс</a></p>
+        <p><a href="documents/График сдачи кт осень/Теория вероятностей и математическая статистика (Э и БИ, ПИ, ИС).pdf">Теория вероятностей и математическая статистика (Э и БИ, ПИ, ИС)</a></p>
+        <p><a href="documents/График сдачи кт осень/Теория вероятностей и математическая статистика(М и ЭБ).pdf">Теория вероятностей и математическая статистика(М и ЭБ)</a></p>
+      </div>
+      <div class="dashed long-button"></div>
+      <div class="button-case"><button class="button button2 long-button">График пересдачи кт осень</button></div>
+      <div class="block" id="block2">
+        <p><a href="documents/График пересдачи кт осень/Линейная алгебра 1 курс персдача.pdf">Линейная алгебра 1 курс персдача</a></p>
+        <p><a href="documents/График пересдачи кт осень/Математика 1 курс пересдача.pdf">Математика 1 курс пересдача</a></p>
+        <p><a href="documents/График пересдачи кт осень/Математический анализ 1 курс пересдача.pdf">Математический анализ 1 курс пересдача</a></p>
+        <p><a href="documents/График пересдачи кт осень/Теория вероятностей и математическая статистика 2 курс М и ЭБ пересдача.pdf">Теория вероятностей и математическая статистика 2 курс М и ЭБ пересдача</a></p>
+        <p><a href="documents/График пересдачи кт осень/Теория вероятностей и математическая статистика 2 курс пересдача Э,БИ.pdf">Теория вероятностей и математическая статистика 2 курс пересдача Э,БИ</a></p>
+      </div>
+      <div class="dashed long-button"></div>
+      <div class="button-case"><button class="button button3 long-button">График пересдачи кт за предыдущие семестры</button></div>
+      <div class="block" id="block3">
+      </div>
+      <div class="dashed long-button"></div>
+      <div class="button-case"><button class="button button4 long-button">График пересдачи экзаменов за предыдущие семестры</button></div>
+      <div class="block" id="block4">
+      </div>
     </div>
   </main>
   <footer>
@@ -42,11 +64,17 @@
   </footer>
   <script>
       $('.button1').click(function() {
-     $('#table1').fadeToggle();
+     $('#block1').fadeToggle();
     });
     $('.button2').click(function() {
-   $('#second-schedule').fadeToggle();
-  });
+     $('#block2').fadeToggle();
+    });
+    $('.button3').click(function() {
+     $('#block3').fadeToggle();
+    });
+    $('.button4').click(function() {
+     $('#block4').fadeToggle();
+    });
   </script>
 </body>
 </html>
