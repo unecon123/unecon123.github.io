@@ -141,7 +141,6 @@ li a:hover {
   .ads {
     display: grid;
     grid-template-columns: 90%;
-    grid-template-rows: 1fr 1fr 1fr;
     margin: 1em;
   }
 }
