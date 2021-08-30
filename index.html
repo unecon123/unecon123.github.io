@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>Главная страница</title>
+
 </head>
 <body>
   <header>
@@ -25,7 +26,7 @@
       </ul>
       <div class="general">
         <h2>Объявления</h2>
-        <div class="ads">
+        <div class="ads" id="ads">
           <div class="ads__part">
             <a href="raspisanie_vtoroi_sessii.html">
             <div class="ads__part__main">
@@ -50,5 +51,21 @@
       <p>Телефон кафедры: 8-(812) 500-43-08</p>
     </div>
   </footer>
+  <script>
+  document.querySelectorAll('.ads').forEach(el => {
+    let divCount = el.querySelectorAll('.ads__part').length;
+    switch(divCount) {
+      case 1:
+        el.classList.add("gridTemplateColumns1");
+        break;
+      case 2:
+        el.classList.add("gridTemplateColumns2");
+        break;
+      case 3:
+        el.classList.add("gridTemplateColumns3");
+        break;
+    }
+     });
+  </script>
 </body>
 </html>

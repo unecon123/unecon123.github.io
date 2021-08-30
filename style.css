@@ -131,10 +131,22 @@ li a:hover {
 
 .ads {
   display: grid;
-  grid-template-columns: 25% 25% 25%;
+  grid-template-columns: 20% 20% 20% 20%;
   justify-content: space-around;
   margin: 1em;
   row-gap: 1.5em;
+}
+
+.gridTemplateColumns1 {
+  grid-template-columns: 90%;
+}
+
+.gridTemplateColumns2 {
+  grid-template-columns: 45% 45%;
+}
+
+.gridTemplateColumns3 {
+  grid-template-columns: 25% 25% 25%;
 }
 
 @media screen and (max-width: 1100px) {
