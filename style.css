@@ -390,3 +390,19 @@ td {
 .upper-padding {
   padding-top: 1em;
 }
+
+.width_70perc {
+  width: 70%;
+}
+
+.left_side_text {
+  text-align: left;
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
+.grey {
+  color: grey;
+}
