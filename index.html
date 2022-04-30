@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Главная страница</title>
+
+</head>
+<body>
+  <header>
+    <a href="index.html">
+    <div class="logo"><img src="logo.jpg" height="100px;"></div></a>
+    <div class="title">
+    <h1>Санкт-Петербургский Государственный Экономический Университет<br>
+    <span class="black">Кафедра высшей математики</span></h1>
+    </div>
+  </header>
+  <main>
+      <ul>
+        <li><a href="index.html"><p>Главная страница</p></a></li>
+        <li><a href="teachers.html"><p>Преподаватели</p></a></li>
+        <li><a href="ochnaya.html"><p>Очная форма обучения</p></a></li>
+        <li><a href="ochno_zaochnaya.html"><p>Очно-заочная, заочная форма обучения</p></a></li>
+        <li><a href="working_programs.html"><p>Рабочие программы</p></a></li>
+      </ul>
+      <div class="general">
+        <h2>Объявления</h2>
+        <div class="ads" id="ads">
+          <div class="ads__part">
+            <a href="raspisanie_vtoroi_sessii.html">
+            <div class="ads__part__main">
+              <img src="raspisanie.jpg">
+              <p>График КТ и экзаменов</p>
+            </div>
+            </a>
+          </div>
+          <div class="ads__part">
+            <div class="ads__part__main width_70perc">
+              <span class="left_side_text"><p>Заведующий кафедрой высшей математики:<br>
+                <span class="underlined grey">Савинов Геннадий Володарович</span><br>
+                Приемные часы: <span class="underlined grey">понедельник </span><br>
+                <span class="underlined grey">14.30-16.00</span><br>
+                <span class="underlined grey">м.т. 3351</span><br><br>
+                Заместитель заведующего кафедрой по УМР:<br>
+                <span class="underlined grey">Коростелева Ольга Николаевна</span><br>
+                Приемные часы: <span class="underlined grey">вторник</span><br>
+                <span class="underlined grey">13.00-14.00</span><br>
+                <span class="underlined grey">м.т. 3353</span></p></span>
+            </div>
+          </div>
+        </div>
+      </div>
+  </main>
+  <footer>
+    <div class="contacts">
+      <h3>Контакты кафедры</h3>
+      <p>Санкт-Петербург, наб. канала Грибоедова, д.30/32б, ауд. 2037</p>
+      <p>dept.math@unecon.ru</p>
+      <p>Телефон кафедры: 8-(812) 500-43-08</p>
+    </div>
+  </footer>
+  <script>
+  document.querySelectorAll('.ads').forEach(el => {
+    let divCount = el.querySelectorAll('.ads__part').length;
+    switch(divCount) {
+      case 1:
+        el.classList.add("gridTemplateColumns1");
+        break;
+      case 2:
+        el.classList.add("gridTemplateColumns2");
+        break;
+      case 3:
+        el.classList.add("gridTemplateColumns3");
+        break;
+    }
+     });
+  </script>
+</body>
+</html>

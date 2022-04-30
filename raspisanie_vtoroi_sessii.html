@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Расписание второй промежуточной аттестации</title>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+</head>
+<body>
+  <header>
+    <a href="index.html">
+    <div class="logo"><img src="logo.jpg" height="100px;"></div></a>
+    <div class="title">
+    <h1>Санкт-Петербургский Государственный Экономический Университет<br>
+    <span class="black">Кафедра высшей математики</span></h1>
+    </div>
+  </header>
+  <main>
+    <ul>
+      <li><a href="index.html"><p>Главная страница</p></a></li>
+      <li><a href="teachers.html"><p>Преподаватели</p></a></li>
+      <li><a href="ochnaya.html"><p>Очная форма обучения</p></a></li>
+      <li><a href="ochno_zaochnaya.html"><p>Очно-заочная, заочная форма обучения</p></a></li>
+      <li><a href="working_programs.html"><p>Рабочие программы</p></a></li>
+    </ul>
+    <div class="general">
+    <div class="wrapper">
+      <div class="button-case upper-padding"><button class="button button1 long-button">График сдачи КТ</button></div>
+      <div class="block" id="block1">
+        <!-- <p><a href="documents/График сдачи кт осень/график кт осень 2020.pdf">график кт осень 2020</a></p>
+        <p><a href="documents/График сдачи кт осень/Линейная алгебра 1 курс.pdf">Линейная алгебра 1 курс</a></p>
+        <p><a href="documents/График сдачи кт осень/Математика 1 курс.pdf">Математика 1 курс</a></p>
+        <p><a href="documents/График сдачи кт осень/Математический анализ 1 курс.pdf">Математический анализ 1 курс</a></p>
+        <p><a href="documents/График сдачи кт осень/Теория вероятностей и математическая статистика (Э и БИ, ПИ, ИС).pdf">Теория вероятностей и математическая статистика (Э и БИ, ПИ, ИС)</a></p>
+        <p><a href="documents/График сдачи кт осень/Теория вероятностей и математическая статистика(М и ЭБ).pdf">Теория вероятностей и математическая статистика(М и ЭБ)</a></p> -->
+      </div>
+      <div class="dashed long-button"></div>
+      <div class="button-case"><button class="button button2 long-button">График пересдачи КТ</button></div>
+      <div class="block" id="block2">
+        <!-- <p><a href="documents/График пересдачи кт осень/1.pdf">Линейная алгебра 1 курс перeсдача</a></p>
+        <p><a href="documents/График пересдачи кт осень/Математика 1 курс пересдача.pdf">Математика 1 курс пересдача</a></p>
+        <p><a href="documents/График пересдачи кт осень/Математический анализ 1 курс пересдача.pdf">Математический анализ 1 курс пересдача</a></p>
+        <p><a href="documents/График пересдачи кт осень/Теория вероятностей и математическая статистика 2 курс М и ЭБ пересдача.pdf">Теория вероятностей и математическая статистика 2 курс М и ЭБ пересдача</a></p>
+        <p><a href="documents/График пересдачи кт осень/Теория вероятностей и математическая статистика 2 курс пересдача Э,БИ.pdf">Теория вероятностей и математическая статистика 2 курс пересдача Э,БИ</a></p> -->
+      </div>
+      <div class="dashed long-button"></div>
+      <div class="button-case"><button class="button button3 long-button">График пересдачи кт за предыдущие семестры</button></div>
+      <div class="block" id="block3">
+      <!-- <p><a href="documents/Комиссия 01.03.2021-13.03.2021.pdf">Комиссия 01.03.2021-13.03.2021</a></p> -->
+      </div>
+      <div class="dashed long-button"></div>
+      <div class="button-case"><button class="button button4 long-button">График пересдачи экзаменов за предыдущие семестры</button></div>
+      <div class="block" id="block4">
+      <!-- <p><a href="documents/Комиссия 01.03.2021-13.03.2021.pdf">Комиссия 01.03.2021-13.03.2021</a></p> -->
+      </div>
+      <div class="dashed long-button"></div>
+      <div class="button-case"><button class="button button5 long-button">График пересдачи</button></div>
+      <div class="block" id="block5">
+      <!-- <p><a href="documents/Комиссия 01.03.2021-13.03.2021.pdf">Комиссия 01.03.2021-13.03.2021</a></p> -->
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="contacts">
+      <h3>Контакты кафедры</h3>
+      <p>Санкт-Петербург, наб. канала Грибоедова, д.30/32б, ауд. 2037</p>
+      <p>dept.math@unecon.ru</p>
+      <p>Телефон кафедры: 8-(812) 500-43-08</p>
+    </div>
+  </footer>
+  <script>
+      $('.button1').click(function() {
+     $('#block1').fadeToggle();
+    });
+    $('.button2').click(function() {
+     $('#block2').fadeToggle();
+    });
+    $('.button3').click(function() {
+     $('#block3').fadeToggle();
+    });
+    $('.button4').click(function() {
+     $('#block4').fadeToggle();
+    });
+    $('.button5').click(function() {
+     $('#block5').fadeToggle();
+    });
+  </script>
+</body>
+</html>
