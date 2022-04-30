@@ -27,13 +27,13 @@ body {
     background-color: white;
 }
 
-@media screen and (max-width: 1200px) {
+@media all and (max-width: 1200px) {
     .header {
         margin: 0 5em;
     }
 }
 
-@media screen and (max-width: 992px) {
+@media all and (max-width: 992px) {
     .header {
         flex-direction: column;
         margin: 0;
@@ -49,7 +49,7 @@ body {
     width: 60%;
 }
 
-@media screen and (max-width: 992px) {
+@media all and (max-width: 992px) {
     .header__menu {
         width: 100%;
         margin: 0 auto;
@@ -65,11 +65,11 @@ body {
     justify-content: space-around;
 }
 
-@media screen and (max-width: 768px) {
+@media all and (max-width: 768px) {
     .header__menu ul {
         flex-direction: column;
         padding: 0;
-        margin-top: 0;
+        margin: 0 auto 0 auto;
     }
 }
 
@@ -82,7 +82,7 @@ body {
     color: #551A8B;
 }
 
-@media screen and (max-width: 768px) {
+@media all and (max-width: 768px) {
     .header__menu li {
         margin: 0.5em auto;
     }
@@ -151,7 +151,7 @@ body {
     color: white;
 }
 
-@media screen and (max-width: 1729px) {
+@media all and (max-width: 1729px) {
     .welcomeText {
         background-repeat: no-repeat;
         background-size: cover;
@@ -392,13 +392,13 @@ body {
     grid-row-gap: 2em;
 }
 
-@media screen and (max-width: 1712px) {
+@media all and (max-width: 1712px) {
     .workingPrograms__main {
         grid-template-columns: 45% 45%;
     }
 }
 
-@media screen and (max-width: 1141px) {
+@media all and (max-width: 1141px) {
     .workingPrograms__main {
         grid-template-columns: 100%;
     }
@@ -503,14 +503,14 @@ body {
 
 /* вот это вот снизу - фикс флагов под разную высоту навбара при оптимизации под разные разрешения */
 
-@media screen and (max-width: 992px) {
+@media all and (max-width: 992px) {
     #welcome, #teachers, #workingPrograms, #educationForms {
         padding-top: 75px;
         margin-top: -75px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media all and (max-width: 768px) {
     #welcome, #teachers, #workingPrograms, #educationForms {
         padding-top: 165px;
         margin-top: -165px;
