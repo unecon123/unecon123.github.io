@@ -503,6 +503,11 @@ body {
 
 /* вот это вот снизу - фикс флагов под разную высоту навбара при оптимизации под разные разрешения */
 
+#welcome, #teachers, #educationForms {
+    padding-top: 10px;
+    margin-top: -10px;
+}
+
 @media all and (max-width: 992px) {
     #welcome, #teachers, #workingPrograms, #educationForms {
         padding-top: 75px;
